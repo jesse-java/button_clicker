@@ -14,13 +14,17 @@
     <link rel="stylesheet" href="/WEB-INF/css/index.css" type="text/css">
   </head>
 <body>
+
+<h1>You have generated a word <c:out value="${counter}" /> times.</h1>
+
+<h1><c:out value="${currString}"/></h1>
+
 <form action="/" method="post">
-  <input type="submit" value="Click Here!">
+  <input type="submit" value="Generate">
 </form>
 
+<h1>The last time you generated a word was: </h1>
 
-
-<h1>You have clicked this button <c:out value="${counter}" /></h1>
 
 </body>
 </html>
