@@ -23,7 +23,7 @@
   <input type="submit" value="Generate">
 </form>
 
-<h1>The last time you generated a word was: </h1>
+<h1>The last time you generated a word was: <c:out value="${prevDate}"/></h1>
 
 
 </body>
